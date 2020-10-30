@@ -2,3 +2,21 @@ body {
   padding: 50px;
   font-family: sans-serif;
 }
+
+.index-header{
+  background-image: url(../images/pexels-vishnu-r-nair-1105666.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.form-wrapper{
+  margin: 40px auto;
+  max-width: 500px;
+}
+.logo-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+  color: white;
+}
