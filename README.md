@@ -14,7 +14,7 @@ Boilerplate for a basic ExpressJS backend
 ## Registering the app and getting the credentials
 The Spotify API will need a clientId and clientSecret in order to give us permission to make requests and get some data back. To get clientId and clientSecret, we have to register our app on the official Spotify Developers web site (you won't be charged for this, and no credit card information will be required). Let's follow these steps:
 
-Navigate to Spotify Developers.
+### Navigate to Spotify Developers.
 Click on the "Log In" button. If you do not have an account, you will be asked to create one, it´s free wink.
 After logging in, click on the Create an App button.
 The following screens might be out of date, since Spotify is constantly iterating on their interface, but that shouldn't stop you from completing these steps. You got this!
@@ -25,7 +25,7 @@ Fill the fields and submit the form.
 We are ready to go! We have all the info we need muscle Let´s start!
 
 
-Iteration 1 | Spotify API Setup
+### Spotify API Setup
 In the next few steps, you'll create all of the files that you need. So far, you have some basic setup in app.js, but that's not quite enough. As you remember, to get some packages (including express) in our app, we have to have them in the package.json file. So let's start listing the steps:
 
 Let's install all the dependencies we need to successfully run this app: npm install express hbs spotify-web-api-node dotenv.
@@ -59,4 +59,4 @@ This package is imported at the very beginning of app.js. All that is left to do
 CLIENT_SECRET=your clientSecret goes here`
 zap The .env is referred to in the .gitignore file so you're safe!
 
-fire Styling should be the last thing you focus on. Functionality first! 🙏🏻
+
