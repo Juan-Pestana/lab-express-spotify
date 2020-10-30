@@ -34,7 +34,7 @@ nodemon is installed as a dev dependency (our app doesn't depend on it but it he
 
 Inside of the app.js file, require spotify-web-api-node.
 
-``const SpotifyWebApi = require('spotify-web-api-node');
+```const SpotifyWebApi = require('spotify-web-api-node');
 Inside of the app.js file, you'll find the place where you should paste the following code:
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.CLIENT_ID,
@@ -50,7 +50,7 @@ See this above?
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.CLIENT_ID,
   clientSecret: process.env.CLIENT_SECRET
-});``
+});```
 To avoid making our API keys public, we don't want to add and commit them. We'll use a package named dotenv for that.
 
 This package is imported at the very beginning of app.js. All that is left to do is to add your keys in the .env file. So go ahead and create a .env file and paste the following lines there, replacing the text with your credentials.
